@@ -51,7 +51,7 @@ public final class CrawlerConfiguration {
         this.resultPath = resultPath;
     }
 
-    // ----------------- Getters -----------------
+
 
     public List<String> getStartPages() {
         return startPages;
@@ -93,7 +93,6 @@ public final class CrawlerConfiguration {
         return resultPath;
     }
 
-    // ----------------- Builder -----------------
 
     public static final class Builder {
         private final Set<String> startPages = new LinkedHashSet<>();
